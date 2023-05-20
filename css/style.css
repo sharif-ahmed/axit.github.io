@@ -1,0 +1,439 @@
+/* START COMMON CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: 91.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: 83.34%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: 41.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-50 {
+    padding-top: 60px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.black-bg {
+    background: #222;
+}
+
+.gray-bg {
+    background: #f2f2f2;
+}
+
+/* END COMMON CSS */
+
+.header-area {
+    background: #000;
+}
+
+.logo {
+    float: left;
+    margin-top: 25px;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.main-menu ul li a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    padding: 30px 0;
+}
+
+.main-menu ul li a:hover {
+    color: #ff8b38;
+}
+
+/* SLIDER CSS */
+
+.content-image {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.slider-content h5 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.slider-content h5::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 65px;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+}
+
+.slider-content p {
+    margin: 30px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.slider-content a {
+    display: inline-block;
+    margin-bottom: 130px;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+}
+
+.signup-form {
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 140px;
+    float: right;
+}
+
+.signup-form h5 {
+    color: #333;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 50px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.signup-form h5 span {
+    color: #ff8b38;
+    text-transform: uppercase;
+}
+
+.signup-form form {
+    text-align: center;
+}
+
+.signup-form form input {
+    display: block;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 40px 10px 10px;
+    color: #bdbdbd;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.signup-form form button {
+    width: 100%;
+    background: #ff9b51;
+    text-align: center;
+    color: #fff;
+    display: block;
+    border: 0;
+    padding: 25px 140px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.social-media-area {
+    /* border-bottom: 2px solid #333; */
+    /* box-shadow: #222; */
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.social-text {
+    padding: 25px 0;
+    float: left;
+}
+
+.social-text h4 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.social-text p {
+    color: #86878b;
+    font-size: 14px;
+}
+
+.social-logos {
+    float: right;
+    margin-top: 40px;
+}
+
+.social-logos i {
+    font-size: 40px;
+    color: #ccc;
+    margin-left: 60px;
+}
+
+.tab-area {
+    padding: 115px 0;
+    background: #f5f5f5;
+}
+
+.tab-content {}
+
+.single-tab-content {
+    padding-left: 70px !important;
+}
+
+.single-tab-content h4 {
+    color: #000;
+    font-size: 20px;
+}
+
+.single-tab-content p {
+    margin: 55px 0;
+    color: #86878b;
+    line-height: 30px;
+}
+
+.single-tab-content a {
+    display: inline-block;
+    padding: 18px 30px;
+    background: #ff8b38;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* MODIFIED SMART TAB JS LIBRARY CSS */
+
+div#smarttab {
+    border: 0;
+}
+
+.st-theme-basic.st-vertical>.nav {
+    box-shadow: none !important;
+    border-radius: 5px;
+}
+
+#smarttab  li {
+    border-bottom: 1px solid #ccc !important;
+    min-height: 120px;
+    min-width: 120px;
+}
+
+#smarttab .nav a {
+    padding: 50px 0;
+    background: #333;
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    text-align: center ;
+}
+
+#smarttab .nav .nav-link.active {
+    background: #ff8b38;
+    color: #fff !important;
+}
+
+.st > .tab-content > .tab-pane {
+    padding: 0;
+}
+
+.st-theme-basic.st-vertical>.nav .nav-link::after {
+    visibility: hidden;
+}
+
+/* END MODIFIED SMART TAB JS LIBRARY CSS */
+
+
