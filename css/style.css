@@ -108,6 +108,10 @@ a {
     padding-top: 120px;
 }
 
+.pt-100 {
+    padding-top: 100px;
+}
+
 .pt-70 {
     padding-top: 70px;
 }
@@ -140,6 +144,13 @@ a {
     padding-bottom: 120px;
 }
 
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
 
 .pb-70 {
     padding-bottom: 70px;
@@ -159,6 +170,10 @@ a {
 
 .pb-30 {
     padding-bottom: 30px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
 }
 
 .mt-80 {
@@ -216,6 +231,14 @@ a {
 
 .gray-bg {
     background: #f2f2f2;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-white {
+    color: #fff;
 }
 
 /* END COMMON CSS */
@@ -325,6 +348,7 @@ a {
     color: #bdbdbd;
     width: 80%;
     margin: 0 auto;
+    outline: none;
 }
 
 .signup-form form button {
@@ -377,7 +401,6 @@ a {
     background: #f5f5f5;
 }
 
-.tab-content {}
 
 .single-tab-content {
     padding-left: 70px !important;
@@ -445,11 +468,6 @@ div#smarttab {
 
 /* END MODIFIED SMART TAB JS LIBRARY CSS */
 
-.sublist-content {}
-
-.section-title {}
-
-.sublist-content .section-title {}
 
 .section-title h4 {
     font-size: 25px;
@@ -571,11 +589,7 @@ div#smarttab {
     bottom: 88%;
     background: #333;
     transition: 0.5s;
-    
-}
 
-.bottom-content{
-    
 }
 
 .single-price:hover .top-content {
@@ -601,16 +615,12 @@ div#smarttab {
     margin-left: 5px;
 }
 
-.single-price .top-content  > span {
+.single-price .top-content>span {
     color: #ccc;
     font-style: italic;
     display: block;
     margin-bottom: 20px;
 }
-/* .single-price ul {
-    border-top: 5px solid #ff8b38;
-} */
-
 
 .single-price li {
     padding: 15px 0;
@@ -620,11 +630,150 @@ div#smarttab {
     text-transform: uppercase;
     font-size: 15px;
 }
+
 .plan {
     background: #ff8b38;
     padding: 15px 0;
 }
+
 .plan p {
     text-transform: uppercase;
     font-size: 15px;
+}
+
+.testimonial-area .section-title h4 {
+    color: #212121;
+    font-weight: 400;
+}
+
+.single-testimonial {
+    margin-top: 60px;
+}
+
+.testimonial-text {
+    background: #f5f5f5;
+    padding: 25px;
+    font-style: italic;
+    line-height: 28px;
+    color: #86878b;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.testimonial-text::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: 10%;
+    background: #f5f5f5;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+}
+
+.testimonial-user {
+    margin-top: 25px;
+}
+
+.testimonial-user img {
+    float: left;
+    margin-right: 15px;
+}
+
+.testimonial-user .avatar {
+    float: left;
+    margin-top: 8px;
+}
+
+.avatar h6 {
+    font-size: 20px;
+}
+
+.avatar p {
+    color: #86878b;
+}
+
+.anchor-button {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cta-area .section-title h4 {
+    color: #fff;
+    font-weight: 400;
+}
+
+.cta-area .section-title h4:before {
+    background: #fff;
+}
+
+.cta-area .section-title p {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact-us-area form input {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    border-bottom: 1px solid #d6d6d6;
+    color: #333;
+    outline: none;
+}
+
+/* .contact-us-area form textarea {
+    padding-bottom: 131px;
+    outline: none;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    color: #333;
+    resize: none !important;
+} */
+
+.contact-us-area form .msg {
+    padding-bottom: 131px;
+}
+
+.contact-us-area form input:focus {
+    outline: none;
+}
+
+.contact-us-area form input::placeholder,textarea::placeholder { 
+    color: #bdbdbd;
+}
+
+.contact-us-area form button {
+    margin-top: 32px;
+    background: #ff9b51;
+    color: #fff;
+    display: block;
+    border: 0;
+    padding: 15px 20px;
+    margin-top: 50px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+
+.footer-area {
+    background: #000;
+}
+
+.footer-logos i {
+    font-size: 18px;
+    color: #ccc;
+    margin-left: 35px;
+}
+.footer-area p {
+    font-size: 10px;
+    color: #ccc;
 }
