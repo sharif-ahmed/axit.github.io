@@ -104,6 +104,10 @@ a {
     padding: 0 15px;
 }
 
+.pt-120 {
+    padding-top: 120px;
+}
+
 .pt-70 {
     padding-top: 70px;
 }
@@ -131,6 +135,11 @@ a {
 .pt-10 {
     padding-top: 10px;
 }
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
 
 .pb-70 {
     padding-bottom: 70px;
@@ -405,7 +414,7 @@ div#smarttab {
     border-radius: 5px;
 }
 
-#smarttab  li {
+#smarttab li {
     border-bottom: 1px solid #ccc !important;
     min-height: 120px;
     min-width: 120px;
@@ -418,7 +427,7 @@ div#smarttab {
     text-transform: uppercase;
     color: #fff;
     font-weight: 700;
-    text-align: center ;
+    text-align: center;
 }
 
 #smarttab .nav .nav-link.active {
@@ -426,7 +435,7 @@ div#smarttab {
     color: #fff !important;
 }
 
-.st > .tab-content > .tab-pane {
+.st>.tab-content>.tab-pane {
     padding: 0;
 }
 
@@ -436,4 +445,186 @@ div#smarttab {
 
 /* END MODIFIED SMART TAB JS LIBRARY CSS */
 
+.sublist-content {}
 
+.section-title {}
+
+.sublist-content .section-title {}
+
+.section-title h4 {
+    font-size: 25px;
+    color: #333;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section-title h4::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 75px;
+    background: #ff8b38;
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+}
+
+.section-title p {
+    padding: 25px 0;
+    color: #86878b;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.icon-img {
+    float: left;
+    width: 15%;
+}
+
+.icon-content {
+    margin-bottom: 20px;
+}
+
+.icon-title {
+    width: 85%;
+    float: right;
+    padding-left: 20px;
+}
+
+.icon-title h6 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.icon-title p {
+    font-size: 15px;
+    color: #86878b;
+    line-height: 25px;
+}
+
+.standard-picture-area {
+    background: #f5f5f5;
+}
+
+.service-area {
+    padding: 110px 0;
+}
+
+.service-area .section-title.uppercase-title {
+    text-align: center;
+}
+
+.single-service {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.pricing-area {
+    background: #f5f5f5;
+    padding-top: 100px;
+}
+
+.pricing-area .section-title.uppercase-title {
+    text-align: center;
+    margin-bottom: 115px;
+}
+
+.section-title.uppercase-title h4 {
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.uppercase-title h4::before {
+    text-align: center;
+    margin: auto;
+    right: 0;
+}
+
+.single-price {
+    background: #333;
+    text-align: center;
+    margin: 115px 0;
+    position: relative;
+}
+
+
+.single-service h4 {
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.single-service p {
+    color: #86878b;
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.top-content {
+    position: absolute;
+    right: 0;
+    left: 0;
+    content: "";
+    bottom: 88%;
+    background: #333;
+    transition: 0.5s;
+    
+}
+
+.bottom-content{
+    
+}
+
+.single-price:hover .top-content {
+    transform: translateY(-20%);
+}
+
+.single-price h4 {
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 2px solid #fff;
+}
+
+.single-price p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.single-price p span {
+    font-size: 65px;
+    margin-left: 5px;
+}
+
+.single-price .top-content  > span {
+    color: #ccc;
+    font-style: italic;
+    display: block;
+    margin-bottom: 20px;
+}
+/* .single-price ul {
+    border-top: 5px solid #ff8b38;
+} */
+
+
+.single-price li {
+    padding: 15px 0;
+    color: #86878b;
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.plan {
+    background: #ff8b38;
+    padding: 15px 0;
+}
+.plan p {
+    text-transform: uppercase;
+    font-size: 15px;
+}
